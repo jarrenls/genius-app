@@ -42,7 +42,7 @@ ui <- fluidPage(
         tabPanel("Credits",
                  br(),
                  fluidRow(
-                     column(12,
+                     column(8,
                             includeMarkdown("credits.md")
                      )
                  ))
